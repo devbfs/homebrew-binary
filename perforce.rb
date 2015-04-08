@@ -6,10 +6,10 @@ class Perforce < Formula
 
   if MacOS.prefer_64_bit?
     url "http://filehost.perforce.com/perforce/r14.2/bin.macosx105x86_64/p4"
-    sha256 "0d2ad21ecc03493a9b429907fb49209369ca09fd87340c03812dc1d1748dc562"
+    sha256 "fe01f8b613bb72d63e1a5bd278e5020d8bcd0c618f4f74ca2060cf9041581816"
   else
     url "http://filehost.perforce.com/perforce/r14.2/bin.macosx105x86/p4"
-    sha256 "8ae7ced60214bf9593d80ac89891f44224513a0c55ef21860b372151de767dd7"
+    sha256 "94349e6913b4b612270ad1e1191c013030f09452026d4ce8462def448cc32738"
   end
 
   def install
